@@ -76,12 +76,12 @@ namespace WordFinderContracts
             #endregion
 
             #region Create characters map and matrix
-            var x = 0;
+            var y = 0;
             _matrixLength = matrix.Count();
             Matrix = new int[_matrixLength, _matrixLength];
             foreach (var matrixLine in matrix)
             {
-                var y = 0;
+                var x = 0;
                 foreach (var matrixChar in matrixLine)
                 {
                     var matrixCharLowerCase = char.ToLowerInvariant(matrixChar);
@@ -89,9 +89,9 @@ namespace WordFinderContracts
                     currentPositions.Add(new[] { x, y });
                     _map[matrixCharLowerCase] = currentPositions;
                     Matrix[x, y] = matrixChar;
-                    y++;
+                    x++;
                 }
-                x++;
+                y++;
             }
             #endregion
         }
