@@ -2,7 +2,7 @@
 using System.Linq;
 using WordFinderContracts;
 
-namespace WordFinderImplementations
+namespace WordFinderImplementation
 {
     public class WordFinder : WordFinderBase
     {

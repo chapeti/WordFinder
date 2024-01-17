@@ -25,10 +25,5 @@ namespace WordFinderContracts
         {
             return (WordFinderDirection[])Enum.GetValues(typeof(WordFinderDirection));
         }
-
     }
-
-
-
-
 }

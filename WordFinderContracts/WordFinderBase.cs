@@ -12,6 +12,7 @@ namespace WordFinderContracts
     public abstract class WordFinderBase : IWordFinder
     {
         #region Private readonly vars
+
         /// <summary>
         /// This hashtable contains all characters of the matrix
         /// and their coordinates to avoid cycle on it if you

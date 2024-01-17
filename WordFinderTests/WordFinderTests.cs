@@ -4,7 +4,7 @@ using System.Diagnostics;
 using System.Linq;
 using WordFinderContracts;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using WordFinderImplementations;
+using WordFinderImplementation;
 using WordFinderTests.Helpers;
 
 namespace WordFinderTests
